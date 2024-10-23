@@ -12,7 +12,7 @@ import SwiftData
 struct CloneXApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UnAuthPage()
         }
     }
 }

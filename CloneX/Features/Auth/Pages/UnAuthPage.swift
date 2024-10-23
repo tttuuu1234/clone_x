@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
+struct UnAuthPage: View {
     
     var body: some View {
         NavigationStack {
@@ -126,5 +126,5 @@ struct RoundedButtonStyle: ButtonStyle {
 }
 
 #Preview {
-    ContentView()
+    UnAuthPage()
 }
