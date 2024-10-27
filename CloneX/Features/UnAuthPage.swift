@@ -18,8 +18,8 @@ struct UnAuthPage: View {
                 
                 Text("「いま」起きていること\nをみつけよう")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                    .fontWeight(.black)
-                Spacer()
+                        .fontWeight(.black)
+                    Spacer()                                    
                 
                 Group(content: {
                     Button(action: {}, label: {
@@ -96,7 +96,7 @@ struct UnAuthPage: View {
                             .font(.footnote)
                         
                         NavigationLink {
-                            
+                            HomePage()
                         } label: {
                             Text("ログイン")
                                 .font(.footnote)

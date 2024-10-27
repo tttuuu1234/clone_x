@@ -11,6 +11,7 @@
 		A57C39602CBCF3B900F44869 /* UnAuthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C395F2CBCF3B900F44869 /* UnAuthPage.swift */; };
 		A57C39642CBCF3BB00F44869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57C39632CBCF3BB00F44869 /* Assets.xcassets */; };
 		A57C39672CBCF3BB00F44869 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57C39662CBCF3BB00F44869 /* Preview Assets.xcassets */; };
+		A57C39712CCE016100F44869 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C39702CCE016100F44869 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A57C395F2CBCF3B900F44869 /* UnAuthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnAuthPage.swift; sourceTree = "<group>"; };
 		A57C39632CBCF3BB00F44869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57C39662CBCF3BB00F44869 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A57C39702CCE016100F44869 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,25 +72,10 @@
 		A57C396D2CC9B9A600F44869 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				A57C396E2CC9B9BD00F44869 /* Auth */,
+				A57C395F2CBCF3B900F44869 /* UnAuthPage.swift */,
+				A57C39702CCE016100F44869 /* HomePage.swift */,
 			);
 			path = Features;
-			sourceTree = "<group>";
-		};
-		A57C396E2CC9B9BD00F44869 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				A57C396F2CC9BA4100F44869 /* Pages */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		A57C396F2CC9BA4100F44869 /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-				A57C395F2CBCF3B900F44869 /* UnAuthPage.swift */,
-			);
-			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A57C39602CBCF3B900F44869 /* UnAuthPage.swift in Sources */,
+				A57C39712CCE016100F44869 /* HomePage.swift in Sources */,
 				A57C395E2CBCF3B900F44869 /* CloneXApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
